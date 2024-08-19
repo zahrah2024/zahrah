@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+}
+.navbar .link a{
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+}
+.header{
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./Img_2/builder.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+.link-container .links .active{
+    color: orange;
+}
+.header-line{
+    display: flex;
+}
+.header-content .header-line>div{
+    height: 2px;
+    background: white;
+    margin-bottom: 8px;
+    width: 20px;
+    margin-left: 6px;
+}
+.header-content .header-line .line-active{
+    background: orange;
+}
+.header-content .header-line{
+    position: absolute;
+    bottom: 200px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header-content p{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.header-content h2{
+    font-size: 30px;
+}
+.page-content{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.page-content col1{
+    width: 30%;
+    height: 150px;
+    background: coral;
+}
